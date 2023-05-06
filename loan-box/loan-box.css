@@ -294,6 +294,14 @@ a {
 .loan-box > .con > .menu-box-1 > ul > li > a:hover > span {
   text-decoration: underline;
 }
+
+.loan-box > .con > .menu-box-1 {
+  margin-top: 25px;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li {
+    margin: 0 3px;
+}
 /* 텍스트 박스 메뉴 끝 */
 /* 배경 끝 */
 /* 대출박스 끝 */
