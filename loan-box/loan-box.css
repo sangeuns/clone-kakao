@@ -113,7 +113,6 @@ a {
 /* 하늘 만들기 시작 */
 .loan-box{
     background-color: #333b58;
-    height: 500px;
     position: relative;
     color: white;
 }
@@ -147,8 +146,8 @@ a {
   width: 112px;
   height: 112px;
   position: absolute;
-  top: 120px;
-  left: calc(50% + 300px);
+  top: 55px;
+  left: calc(50% + 455px);
   overflow: hidden;
 }
 
