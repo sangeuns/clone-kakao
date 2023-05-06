@@ -103,6 +103,10 @@ a {
   min-width: 1080px;
 }
 
+.txt-al-c {
+  text-align: center;
+}
+
 /* 대출박스 시작 */
 
 /* 배경 시작 */
@@ -111,6 +115,7 @@ a {
     background-color: #333b58;
     height: 500px;
     position: relative;
+    color: white;
 }
 
 .loan-box > .sky{
@@ -262,5 +267,17 @@ a {
   animation: clittering 3.5s infinite;
 }
 /* 별 만들기 끝 */
+
+/* 텍스트 박스 시작 */
+.loan-box > .con > h1 {
+  font-size: 40px;
+}
+
+.loan-box > .con > .des {
+  font-size: 15px;
+  opacity: .6;
+  margin-top: 20px;
+}
+/* 텍스트 박스 끝 */
 /* 배경 끝 */
 /* 대출박스 끝 */
