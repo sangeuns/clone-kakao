@@ -233,5 +233,34 @@ a {
     transform: scale(0.5);
   }
 }
+
+.ico-star-1 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-2 {
+  animation: clittering 3s infinite;
+}
+
+.ico-star-3 {
+  animation: clittering 5s infinite;
+}
+
+.ico-star-4 {
+  animation: clittering 2s infinite;
+}
+
+.ico-star-5 {
+  animation: clittering 4s infinite;
+}
+
+.ico-star-6 {
+  animation: clittering 1.8s infinite;
+}
+
+.ico-star-7 {
+  animation: clittering 3.5s infinite;
+}
+/* 별 만들기 끝 */
 /* 배경 끝 */
 /* 대출박스 끝 */
