@@ -106,10 +106,7 @@ a {
 /* 대출박스 시작 */
 
 /* 배경 시작 */
-/* 라이브러리 임시 테스트용 h1 */
-h1{
-  height: 500px;
-}
+/* 하늘 만들기 시작 */
 .loan-box{
     background-color: #333b58;
     height: 500px;
@@ -139,6 +136,8 @@ h1{
   position: relative;
 }
 
+/* 하늘 만들기 끝 */
+/* 해와 달 만들기 시작 */
 .loan-box > .sky > .moon {
   width: 112px;
   height: 112px;
@@ -174,6 +173,50 @@ h1{
 
 .loan-box.active > .sky > .moon > .base {
   background-color: white;
+}
+/* 해와 달 만들기 끝 */
+
+/* 별 만들기 시작 */
+.ico-star {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+}
+.sky .ico-star-1 {
+  top: 30%;
+  left: 10%;
+}
+
+.sky .ico-star-2 {
+  top: 10%;
+  left: 20%;
+}
+
+.sky .ico-star-3 {
+  top: 25%;
+  left: 15%;
+}
+
+.sky .ico-star-4 {
+  top: 40%;
+  right: 15%;
+}
+
+.sky .ico-star-5 {
+  top: 43%;
+  right: 30%;
+}
+
+.sky .ico-star-6 {
+  top: 73%;
+  right: 27%;
+}
+
+.sky .ico-star-7 {
+  top: 65%;
+  left: 22%;
 }
 /* 배경 끝 */
 /* 대출박스 끝 */
