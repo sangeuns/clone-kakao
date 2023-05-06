@@ -106,6 +106,10 @@ a {
 /* 대출박스 시작 */
 
 /* 배경 시작 */
+/* 라이브러리 임시 테스트용 h1 */
+h1{
+  height: 500px;
+}
 .loan-box{
     background-color: #333b58;
     height: 100px;
@@ -129,7 +133,7 @@ a {
     left: 0;
     transition: height .5s;
 }
-.loan-box > .sky:hover > .blue{
+.loan-box.active > .sky > .blue{
   height: 0;
 }
 .con{
