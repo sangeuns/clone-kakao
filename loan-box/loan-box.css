@@ -147,5 +147,29 @@ h1{
   background-color: red;
   left: calc(50% + 300px);
 }
+
+.loan-box > .sky > .moon > .base {
+  width: 110px;
+  height: 110px;
+  background-color: #ffdc00;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+
+.loan-box > .sky > .moon > .shadow {
+  width: 100%;
+  height: 100%;
+  background-color: #333b58;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  border-radius: 50%;
+  transition: top .5s .3s, left .5s .3s;
+}
+
+.loan-box.active > .sky > .moon > .shadow {
+  top: -25%;
+  left: -25%;
+}
 /* 배경 끝 */
 /* 대출박스 끝 */
