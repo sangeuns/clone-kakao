@@ -112,7 +112,7 @@ h1{
 }
 .loan-box{
     background-color: #333b58;
-    height: 100px;
+    height: 500px;
     position: relative;
 }
 
@@ -137,6 +137,15 @@ h1{
 }
 .con{
   position: relative;
+}
+
+.loan-box > .sky > .moon {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  top: 120px;
+  background-color: red;
+  left: calc(50% + 300px);
 }
 /* 배경 끝 */
 /* 대출박스 끝 */
