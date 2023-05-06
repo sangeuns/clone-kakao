@@ -279,5 +279,21 @@ a {
   margin-top: 20px;
 }
 /* 텍스트 박스 끝 */
+/* 텍스트 박스 메뉴 시작 */
+.loan-box > .con > .menu-box-1 > ul > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,0.09);
+  width: 166px;
+  height: 52px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.loan-box > .con > .menu-box-1 > ul > li > a:hover > span {
+  text-decoration: underline;
+}
+/* 텍스트 박스 메뉴 끝 */
 /* 배경 끝 */
 /* 대출박스 끝 */
