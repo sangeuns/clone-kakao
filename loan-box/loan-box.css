@@ -144,7 +144,6 @@ h1{
   height: 112px;
   position: absolute;
   top: 120px;
-  background-color: red;
   left: calc(50% + 300px);
 }
 
@@ -170,6 +169,10 @@ h1{
 .loan-box.active > .sky > .moon > .shadow {
   top: -25%;
   left: -25%;
+}
+
+.loan-box.active > .sky > .moon > .base {
+  background-color: white;
 }
 /* 배경 끝 */
 /* 대출박스 끝 */
