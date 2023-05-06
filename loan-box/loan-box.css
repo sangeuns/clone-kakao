@@ -108,6 +108,7 @@ a {
 /* 배경 시작 */
 .loan-box{
     background-color: #333b58;
+    height: 100px;
     position: relative;
 }
 
@@ -131,7 +132,8 @@ a {
 .loan-box > .sky:hover > .blue{
   height: 0;
 }
-.lorem{
+.con{
+  position: relative;
 }
 /* 배경 끝 */
 /* 대출박스 끝 */
