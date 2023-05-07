@@ -96,7 +96,7 @@ a {
 
 /* cos */
 ::selection {
-    background-color: #fede22;
+  background-color: #fede22;
 }
 .con {
   width: 1080px;
@@ -112,51 +112,56 @@ a {
 
 /* 체크카드 박스 시작 */
 .checkcard-box {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .checkcard-box h1 {
-    font-size: 40px;
-    line-height: 1.35;
+  font-size: 40px;
+  line-height: 1.35;
 }
 
 .checkcard-box > .con > .des {
-    margin-top: 24px;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.7;
-    color: #666;
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
 }
-.checkcard-box > .con > .btn-box{
-    display: flex;
-    justify-content: center;
+.checkcard-box > .con > .btn-box {
+  display: flex;
+  justify-content: center;
 }
-.checkcard-box > .con > .btn-box > a{
-    margin-top: 30px;
-    background-color: #f6f6f6;
-    border-radius: 10px;
-    width: 285px;
-    height: 56px;
-    font-size: 16px;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.checkcard-box > .con > .btn-box > a {
+  margin-top: 30px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  width: 285px;
+  height: 56px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .checkcard-box > .con > .btn-box > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .checkcard-box .slider-box-1 {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .checkcard-box .slider-box-1 > .slides {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .checkcard-box .slider-box-1 > .slides > div > img {
-    width: 240px;
+  width: 240px;
+}
+.checkcard-box .slider-box-1 > .slides > .center {
+transform: scale(1.2);
+margin-left: -20px;
+margin-right: -20px;
 }
 /* 체크카드 박스 끝 */
