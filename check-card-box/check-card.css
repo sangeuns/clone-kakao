@@ -178,4 +178,7 @@ a {
     left: auto;
     right: 30px;
 }
+.checkcard-box .slider-box-1 > .arrows > div:active {
+    transform: translateY(-40%);
+}
 /* 체크카드 박스 끝 */
