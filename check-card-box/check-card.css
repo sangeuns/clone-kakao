@@ -124,4 +124,20 @@ a {
     line-height: 1.7;
     color: #666;
 }
+.checkcard-box > .con > .btn-box{
+    display: flex;
+    justify-content: center;
+}
+.checkcard-box > .con > .btn-box > a{
+    margin-top: 30px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    width: 285px;
+    height: 56px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* 체크카드 박스 끝 */
