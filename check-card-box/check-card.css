@@ -140,4 +140,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+.checkcard-box > .con > .btn-box > a:hover {
+    text-decoration: underline;
+}
 /* 체크카드 박스 끝 */
