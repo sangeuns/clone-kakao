@@ -1,4 +1,4 @@
-// slide 효과 라이브러리
+// slick 라이브러리
 function SliderBox1__init() {
   $('.slider-box-1 > .slick').slick({
     dots: true,
