@@ -95,6 +95,9 @@ a {
 }
 
 /* cos */
+::selection {
+    background-color: #fede22;
+}
 .con {
   width: 1080px;
 }
