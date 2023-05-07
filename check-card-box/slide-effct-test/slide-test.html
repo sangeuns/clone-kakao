@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="slide-test.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
+
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- slick 라이브러리 가져오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <link
       rel="stylesheet"
@@ -23,25 +22,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     />
+    <link rel="stylesheet" href="slide-test.css" />
     <script src="slide-test.js"></script>
 
     <div class="checkcard-box con-min-width">
       <div class="con">
         <div class="slider-box-1 border-red">
-          <div class="arrows">
-            <div class="btn-arrow btn-arrow-left">
-              <img
-                src="https://www.kakaobank.com/static/images/web/img-left.png"
-                alt=""
-              />
-            </div>
-            <div class="btn-arrow btn-arrow-right">
-              <img
-                src="https://www.kakaobank.com/static/images/web/img-right.png"
-                alt=""
-              />
-            </div>
-          </div>
+            <!-- slick 라이브러리는 꼭 'slick > item클래스'를 생성해야 적용된다 -->
+            <!-- slick > item > img-box > img -->
           <div class="slick">
             <div class="item">
               <div class="img-box">
