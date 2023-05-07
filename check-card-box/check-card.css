@@ -108,5 +108,20 @@ a {
 }
 
 /* 체크카드 박스 시작 */
+.checkcard-box {
+    padding-top: 150px;
+}
 
+.checkcard-box h1 {
+    font-size: 40px;
+    line-height: 1.35;
+}
+
+.checkcard-box > .con > .des {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
 /* 체크카드 박스 끝 */
