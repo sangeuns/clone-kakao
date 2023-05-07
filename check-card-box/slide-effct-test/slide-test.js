@@ -11,8 +11,8 @@ $(document).ready(function () {
       arrows: true,
       // 기존 버튼의 기능을 다음 클래스로 넘긴다
       // prevArrow, nextArrow는 slick의 고유 기능
-      prevArrow: ".slider-box-1 > .arrows > .btn-arrow-left",
-      nextArrow: ".slider-box-1 > .arrows > .btn-arrow-right",
+      prevArrow: '.slider-box-1 > .arrows > .btn-arrow-left',
+      nextArrow: '.slider-box-1 > .arrows > .btn-arrow-right',
     });
   }
 
