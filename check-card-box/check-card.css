@@ -149,6 +149,7 @@ a {
 
 .checkcard-box .slider-box-1 {
   margin-top: 120px;
+  position: relative;
 }
 
 .checkcard-box .slider-box-1 > .slides {
@@ -160,8 +161,21 @@ a {
   width: 240px;
 }
 .checkcard-box .slider-box-1 > .slides > .center {
-transform: scale(1.2);
-margin-left: -20px;
-margin-right: -20px;
+  transform: scale(1.2);
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.checkcard-box .slider-box-1 > .arrows > div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    cursor: pointer;
+}
+
+.checkcard-box .slider-box-1 > .arrows > div:last-child {
+    left: auto;
+    right: 30px;
 }
 /* 체크카드 박스 끝 */
