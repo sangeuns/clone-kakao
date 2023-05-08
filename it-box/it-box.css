@@ -136,4 +136,22 @@ margin-top: 125px;
 .itskill-box > .con > .info-box > img{
     display: block;
 }
+.itskill-box > .con > .info-box > ul > li {
+    width: 285px;
+}
+.itskill-box > .con > .info-box > ul > li:nth-child(2) {
+    margin-left: -9px;
+}
+.itskill-box > .con > .info-box > ul > li > h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+.itskill-box > .con > .info-box > ul > li > .des {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    font-weight: 200;
+}
 /* itskill-box 끝 */
