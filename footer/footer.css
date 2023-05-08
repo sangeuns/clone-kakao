@@ -203,4 +203,8 @@ a {
 .ico-2.ico-2-blog {
   background-position: -217px -138px;
 }
+
+.bottom-bar .box-3 > .menu-box-2 > ul > li {
+  margin-left: 10px;
+}
 /* footer 끝 */
