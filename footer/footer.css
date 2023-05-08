@@ -109,3 +109,12 @@ a {
 .txt-al-c {
   text-align: center;
 }
+
+/* footer 시작 */
+.bottom-bar {
+  background-color: #eee;
+  font-size: 11px;
+  font-family: '돋움', dotum, sans-serif;
+  padding: 20px 0 16px;
+}
+/* footer 끝 */
