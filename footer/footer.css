@@ -181,8 +181,8 @@ a {
   background-image: url('https://www.kakaobank.com/static/images/web/ico_sns.png');
 }
 .bottom-bar .box-3 > .menu-box-2 > ul > li > a {
-    width: 24px;
-    height: 24px;
-    border: 2px solid red;
+  width: 24px;
+  height: 24px;
+  border: 2px solid red;
 }
 /* footer 끝 */
