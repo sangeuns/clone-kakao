@@ -183,11 +183,10 @@ a {
 .bottom-bar .box-3 > .menu-box-2 > ul > li > a {
   width: 24px;
   height: 24px;
-  border: 2px solid red;
 }
 
-.bottom-bar .box-3 > .menu-box-2 > ul > li > a > span{
-    height: 100%;
+.bottom-bar .box-3 > .menu-box-2 > ul > li > a > span {
+  height: 100%;
 }
 .ico-2.ico-2-facebook {
   background-position: 0 -90px;
