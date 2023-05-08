@@ -125,7 +125,7 @@ a {
   font-family: '돋움', dotum, sans-serif;
   padding: 20px 0 16px;
 }
-
+/* box-1 */
 .bottom-bar .box-1 {
   color: #666;
 }
@@ -142,7 +142,7 @@ a {
 .bottom-bar .box-1 > .menu-box-1 > ul > li.not {
   padding-left: 0;
 }
-
+/* box-2 */
 .bottom-bar .box-2 {
   color: #888;
   margin-top: 10px;
