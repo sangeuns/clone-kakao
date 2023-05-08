@@ -144,4 +144,11 @@ a {
   color: #888;
   margin-top: 10px;
 }
+.bottom-bar .box-2 > .rep-contact {
+  margin: 0 10px;
+}
+
+.bottom-bar .box-2 > .copyright {
+  margin-top: 8px;
+}
 /* footer 끝 */
