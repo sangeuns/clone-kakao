@@ -117,4 +117,14 @@ a {
   font-family: '돋움', dotum, sans-serif;
   padding: 20px 0 16px;
 }
+
+.bottom-bar .box-1 {
+  color: #666;
+}
+
+.bottom-bar .box-1 > .menu-box-1 > ul > li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
 /* footer 끝 */
