@@ -154,4 +154,26 @@ a {
 .bottom-bar .box-2 > .copyright {
   margin-top: 8px;
 }
+/* box-3 */
+.bottom-bar .box-3 {
+  margin-top: 15px;
+}
+
+.bottom-bar .box-3 > a > span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  margin-left: 8px;
+}
+.bottom-bar .box-3 .auth-mark-1 {
+  margin-right: 20px;
+}
+
+.bottom-bar .box-3 .auth-mark-1 > img {
+  width: 48px;
+}
+
+.bottom-bar .box-3 .auth-mark-2 > img {
+  width: 42px;
+}
 /* footer 끝 */
