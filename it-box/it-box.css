@@ -115,4 +115,18 @@ a {
     padding-top: 120px;
     background-color: #f9f9f9;
 }
+.itskill-box > .underline{
+    margin-top: 50px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.itskill-box > .underline::after{
+    content: "";
+    height: 100%;
+    width: 100px;
+    display: block;
+    background-color: black;
+}
 /* itskill-box 끝 */
