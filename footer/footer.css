@@ -185,4 +185,23 @@ a {
   height: 24px;
   border: 2px solid red;
 }
+
+.bottom-bar .box-3 > .menu-box-2 > ul > li > a > span{
+    height: 100%;
+}
+.ico-2.ico-2-facebook {
+  background-position: 0 -90px;
+}
+
+.ico-2.ico-2-instagram {
+  background-position: -191px -138px;
+}
+
+.ico-2.ico-2-youtube {
+  background-position: -90px -90px;
+}
+
+.ico-2.ico-2-blog {
+  background-position: -217px -138px;
+}
 /* footer 끝 */
