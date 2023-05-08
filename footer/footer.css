@@ -139,6 +139,9 @@ a {
 .bottom-bar .box-1 > .menu-box-1 > ul > li:hover > a {
   text-decoration: underline;
 }
+.bottom-bar .box-1 > .menu-box-1 > ul > li.not {
+  padding-left: 0;
+}
 
 .bottom-bar .box-2 {
   color: #888;
