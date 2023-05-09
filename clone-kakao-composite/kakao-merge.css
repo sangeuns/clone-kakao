@@ -118,8 +118,7 @@ a {
   color: black;
 }
 
-/* ------------------------ 탑바 끝 ------------------------ */
-
+/* ------------------------ 탑바 시작 ------------------------ */
 .top-bar {
   height: 100px;
   background-color: white;
@@ -231,7 +230,9 @@ a {
 }
 .top-banner-box-1 {
   position: relative;
+  margin-top: 100px;
 }
+
 /* 메인 배너 - 배경 영역 잡기 */
 .top-banner-box-1 > .bg {
   background-color: #ffef6b;
