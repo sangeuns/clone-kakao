@@ -245,10 +245,12 @@ a {
 }
 
 /* 메인 배너 - 텍스트 박스 */
+
 .top-banner-box-1 .txt-box {
   position: absolute;
   top: 110px;
   left: 15px;
+  z-index: 1;
 }
 .top-banner-box-1 .txt-box > h1 {
   font-size: 49px;
