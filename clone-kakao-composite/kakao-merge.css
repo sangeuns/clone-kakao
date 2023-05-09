@@ -192,11 +192,12 @@ a {
   text-align: center;
   padding: 30px 0;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .top-bar .menu-box-1 > ul > li > div > div > ul > li > ul > li {
   text-align: center;
-  padding: 8px 0;
+  padding: 5px 0;
 }
 
 /* 탑바 - 서류제출 버튼 */
