@@ -586,10 +586,10 @@ a {
 /* 배경 시작 */
 /* 하늘 만들기 시작 */
 .loan-box {
+  padding-top: 150px;
   background-color: #333b58;
   position: relative;
   color: white;
-  border: 10px solid red;
 }
 
 .loan-box > .sky {
