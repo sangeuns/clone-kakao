@@ -794,6 +794,11 @@ a {
   right: auto;
 }
 
+.checkcard-box .slider-box-1 .arrows > .btn-arrow.btn-arrow-left {
+  margin-left: -100px;
+  z-index: 5;
+}
+
 /* 슬라이드 효과 끝 */
 
 /* 체크카드 박스 끝 */
