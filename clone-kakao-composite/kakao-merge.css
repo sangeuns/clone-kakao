@@ -589,6 +589,7 @@ a {
   background-color: #333b58;
   position: relative;
   color: white;
+  border: 10px solid red;
 }
 
 .loan-box > .sky {
@@ -612,6 +613,7 @@ a {
 }
 .con {
   position: relative;
+  z-index: 1;
 }
 
 /* 하늘 만들기 끝 */
