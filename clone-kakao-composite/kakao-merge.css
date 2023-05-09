@@ -496,7 +496,7 @@ a {
 .loan-box.active > .sky > .blue {
   height: 0;
 }
-.con {
+.loan-box > .con {
   position: relative;
   z-index: 1;
 }
