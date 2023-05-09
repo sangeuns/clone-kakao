@@ -798,6 +798,7 @@ a {
 /* itskill-box 시작 */
 .itskill-box {
   padding-top: 120px;
+  border: 10px solid red;
   background-color: #f9f9f9;
 }
 .itskill-box > .con > .underline {
