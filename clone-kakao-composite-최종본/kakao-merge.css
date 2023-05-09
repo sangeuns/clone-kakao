@@ -173,7 +173,8 @@ a {
   display: none;
   padding-top: 30px;
   /* 2차 메뉴를 top에서 1px내려서 호버 시 1차 메뉴의 bottom 선을 보이게 한다  */
-  top: calc(100%+1px);
+  top: calc(100%+200px);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .top-bar .menu-box-1 > ul > li:hover > div {
